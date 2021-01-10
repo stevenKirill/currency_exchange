@@ -1,0 +1,34 @@
+{
+  "name": "currency-exchange",
+  "version": "1.0.0",
+  "description": "currency-exhcnage online",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack --config webpack.config.js"
+  },
+  "keywords": [
+    "currency",
+    "exchange",
+    "rates"
+  ],
+  "author": "Kirill Pavlovskii",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^7.0.0",
+    "css-loader": "^5.0.1",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^1.3.3",
+    "regenerator-runtime": "^0.13.7",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "flag-icon-css": "^3.5.0"
+  }
+}

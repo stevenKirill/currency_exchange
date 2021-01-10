@@ -1,0 +1,70 @@
+.currency_selector_first, 
+.currency_selector_second,
+.choose_first_currency, 
+.choose_second_currency
+{
+    width: 100px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid yellow;
+    font-size: 20px;
+    cursor: pointer;
+}
+.currency_select_container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 15%;
+}
+.change_arrow, .change_button {
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    background: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 7px;
+}
+.change_arrow {
+    width: 70px;
+}
+.change_button {
+    width: 120px;
+}
+.exchange_result {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.choose_section {
+    position: relative;
+    height: 350px;
+}
+.choose_first_currency, 
+.choose_second_currency {
+    margin-top: 5%;
+    position: absolute;
+}
+.choose_first_currency {
+    left: 0;
+}
+.choose_second_currency {
+    right: 0;
+}
+.hidden_select_first {
+    display: none;
+}
+.hidden_select_second {
+    display: none;
+}
+.currency_to_select {
+    margin-top: 5px;
+    text-align: center;
+    background: darkgrey;
+    padding: 2px;
+}
+.currency_to_select:hover {
+    background-color: gold;
+}

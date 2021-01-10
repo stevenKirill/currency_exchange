@@ -1,0 +1,36 @@
+@import url('../components/currenciesList/currenciesList.css');
+@import url('../pages/exchange/exchange.css');
+@import url('../components/SelectCurrency/selectCurrency.css');
+@import url('../pages/error/error.css');
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.main_navigation {
+    width: 30%;
+    margin: 3% auto;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.navigation_item {
+    border-radius: 10px;
+    background: yellow;
+    padding: 26px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.navigation_item:hover {
+    transform: scale(1.2);
+    background-color: gold;
+    transition: all 1.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.navigation_item_link {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
